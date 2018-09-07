@@ -1,3 +1,4 @@
+Dir["../db/migrate"].each {|file| require file }
 require 'bundler/setup'
 Bundler.require
 
